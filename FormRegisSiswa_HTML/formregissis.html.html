@@ -1,0 +1,104 @@
+<!--NAMA : REGITA ARI KRISTIANTI BR SINAGA-->
+<!--NIM : 0110120036-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body style="background-color: aliceblue; margin-top: 60px; margin-bottom: 60px;">
+        <table align="center"
+        style="background-color: white; border: 0; border-radius: 20px;"><tr><td>
+        <header>
+            <h1 style="text-align: center; font-family: Cambria; color: steelblue; padding: 10px;">
+                Form Registrasi Siswa
+            </h1>
+        </header>
+        <main>
+            <form style="font-family: Arial; font-size: 10pt;">
+                <table align="center"
+                style="padding: 30px; background-color: ghostwhite; border-radius: 20px;"
+                cellpadding="10px"
+                >
+                    <tr>
+                        <td colspan="3" style="color: crimson;">
+                            Isilah formulir ini dengan data yang valid.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="nama">Nama</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" placeholder="Nama lengkap..." style="border: 0; border-radius: 10px; padding: 10px; width: 180px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td>:</td>
+                        <td><input type="email" name="email" placeholder="user@example.com" style="border: 0; border-radius: 10px; padding: 10px; width: 180px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tempat_lahir">Tempat Lahir</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="tempat_lahir" placeholder="Kabupaten/Kota..." style="border: 0; border-radius: 10px; padding: 10px; width: 180px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tanggal_lahir">Tanggal Lahir</label></td>
+                        <td>:</td>
+                        <td>
+                            <input type="date" name="tanggal_lahir" style="font-family: Arial; border: 0; border-radius: 10px; padding: 10px; width: 180px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="jenis_kelamin">Jenis Kelamin</label></td>
+                        <td>:</td>
+                        <td>
+                            <input type="radio" name="jenis_kelamin">Laki-Laki
+                            <input type="radio" name="jenis_kelamin">Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label name="agama">Agama</label></td>
+                        <td>:</td>
+                        <td>
+                            <select name="agama" style="border: 0; border-radius: 10px; padding: 10px; width: 200px;">
+                                <option value="">Agama</option>
+                                <option value="islam">Islam</option>
+                                <option value="kristen">Kristen</option>
+                                <option value="katolik">Katolik</option>
+                                <option value="hindu">Hindu</option>
+                                <option value="buddha">Buddha</option>
+                                <option value="kong_hu_cu">Kong Hu Cu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="no_telepon">No Telepon/HP</label></td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="no_telepon" placeholder="081234567890" style="border: 0; border-radius: 10px; padding: 10px; width: 180px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" name="sms"> SMS
+                            <input type="checkbox" name="whatsapp"> WhatsApp
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="alamat">Alamat</label></td>
+                        <td>:</td>
+                        <td>
+                            <textarea name="alamat" placeholder="Alamat lengkap..." style="font-family: Arial; resize: vertical; border: 0; border-radius: 10px; padding: 10px; width: 180px;"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div style="text-align: center; padding: 30px;">
+                <button type="submit" style="width: 420px; background-color: steelblue; border: 0; border-radius: 20px; padding: 10px; color: white;">
+                    Daftar
+                </button>
+            </div>
+        </main>
+        </td></tr></table>
+    </body>
+</html>
